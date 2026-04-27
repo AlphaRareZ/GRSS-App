@@ -1,5 +1,5 @@
 import 'package:cap_and_gown/Home/home_screen.dart';
-import 'package:cap_and_gown/login_screen.dart';
+import 'package:cap_and_gown/Done/login_screen.dart';
 import 'package:flutter/material.dart';
 
 class CreateNewPasswordScreen extends StatelessWidget {

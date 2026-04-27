@@ -1,8 +1,8 @@
 import 'package:cap_and_gown/Home/home_screen.dart';
-import 'package:cap_and_gown/aid_screen.dart';
+import 'package:cap_and_gown/Done/aid_screen.dart';
 import 'package:cap_and_gown/map_screen.dart';
-import 'package:cap_and_gown/more_screen.dart';
-import 'package:cap_and_gown/report_missing_person_screen.dart';
+import 'package:cap_and_gown/Done/more_screen.dart';
+import 'package:cap_and_gown/Done/report_missing_person_screen.dart';
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatefulWidget {

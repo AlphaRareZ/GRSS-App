@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "126947294501",
-    "project_id": "cap-gown-98475",
-    "storage_bucket": "cap-gown-98475.firebasestorage.app"
+    "project_number": "714365267571",
+    "project_id": "sanad-d1286",
+    "storage_bucket": "sanad-d1286.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:126947294501:android:7a0def516ee24555142ecc",
+        "mobilesdk_app_id": "1:714365267571:android:bd81a7c90b12508db18406",
         "android_client_info": {
           "package_name": "com.example.grss_app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCMS-y0TkaWLsJpMDGGraV9firdruu5z-k"
+          "current_key": "AIzaSyDJXuMuy0MfZDA35rPxn9REABjribFWoZQ"
         }
       ],
       "services": {
