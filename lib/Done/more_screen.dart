@@ -1,3 +1,4 @@
+import 'package:cap_and_gown/Done/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -159,9 +160,13 @@ class SettingsScreen extends StatelessWidget {
                     onPressed: () async {
                       await FirebaseAuth.instance.signOut();
                       if (context.mounted) {
-                        // TODO: Update route to navigate to LoginScreen
                         Navigator.of(context)
                             .popUntil((route) => route.isFirst);
+                        Navigator.pushReplacement(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const LoginScreen()),
+                        );
                       }
                     },
                     child: const Text(

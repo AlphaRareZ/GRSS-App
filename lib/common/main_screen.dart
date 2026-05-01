@@ -31,7 +31,7 @@ class _MainScreenState extends State<MainScreen> {
         decoration: const BoxDecoration(
           border: Border(
             top: BorderSide(
-                color: Color(0xFF2A2E3D), width: 1.0), // subtle top border
+                color: Color(0xFF2A2E3D), width: 1.0), 
           ),
         ),
         child: BottomNavigationBar(
